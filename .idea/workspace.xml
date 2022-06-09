@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11a799f-1645-44c0-ae67-8515d18ebc88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/collections/TesteIntArray.kt" afterDir="false" />
+    <list default="true" id="b11a799f-1645-44c0-ae67-8515d18ebc88" name="Changes" comment="Teste de classe do tipo MapOf">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/collections/Funcionario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/collections/TesteColecoesMutaveis.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/collections/TesteList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/collections/TesteList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -37,16 +36,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="TesteIntArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.collections.TesteIntArrayKt" />
+}</component>
+  <component name="RunManager" selected="Kotlin.TesteColecoesMutaveisKt">
+    <configuration name="TesteColecoesMutaveisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.collections.TesteColecoesMutaveisKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.collections.TesteListKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.collections.TesteMapKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteOperacoesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.collections.TesteOperacoesKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteSetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.collections.TesteSetKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,7 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TesteIntArrayKt" />
+        <item itemvalue="Kotlin.TesteColecoesMutaveisKt" />
+        <item itemvalue="Kotlin.TesteSetKt" />
+        <item itemvalue="Kotlin.TesteListKt" />
+        <item itemvalue="Kotlin.TesteMapKt" />
+        <item itemvalue="Kotlin.TesteOperacoesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -67,6 +98,105 @@
       <option name="presentableId" value="Default" />
       <updated>1654710493450</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criado uma classe de teste de um array de int">
+      <created>1654712137923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654712137923</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Criado uma classe de teste de um array de int">
+      <created>1654712238092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654712238092</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Criado uma classe de teste de um IntArrayOf">
+      <created>1654712832293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654712832293</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Criado uma classe de teste de um array de string">
+      <created>1654713247725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654713247725</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Criado uma classe de teste de um array de double">
+      <created>1654714639935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654714639935</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Testes de operações">
+      <created>1654716423576</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654716423576</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Continuando testes com operações">
+      <created>1654716938113</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654716938113</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Continuando testes com operações">
+      <created>1654717046961</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654717046961</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Testes com listas">
+      <created>1654717815528</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654717815528</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Continuação de testes com listas">
+      <created>1654718136300</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654718136300</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Continuação de testes com listas, teste groupBy">
+      <created>1654718496116</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654718496116</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Testes com setOf">
+      <created>1654720986503</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654720986503</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ajuste divisão">
+      <created>1654721002373</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654721002373</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Teste de classe do tipo MapOf">
+      <created>1654776484047</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654776484047</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,5 +209,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criado uma classe de teste de um array de int" />
+    <MESSAGE value="Criado uma classe de teste de um IntArrayOf" />
+    <MESSAGE value="Criado uma classe de teste de um array de string" />
+    <MESSAGE value="Criado uma classe de teste de um array de double" />
+    <MESSAGE value="Testes de operações" />
+    <MESSAGE value="Continuando testes com operações" />
+    <MESSAGE value="Testes com listas" />
+    <MESSAGE value="Continuação de testes com listas" />
+    <MESSAGE value="Continuação de testes com listas, teste groupBy" />
+    <MESSAGE value="Testes com setOf" />
+    <MESSAGE value="Ajuste divisão" />
+    <MESSAGE value="Teste de classe do tipo MapOf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste de classe do tipo MapOf" />
   </component>
 </project>
