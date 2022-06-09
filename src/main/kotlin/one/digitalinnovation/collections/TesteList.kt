@@ -9,25 +9,13 @@ fun main() {
 
     funcionarios.forEach { println(it) }
 
-    println(funcionarios.find {it.nome == "Maria"})
+    println(funcionarios.find { it.nome == "Maria" })
 
     funcionarios
         .sortedBy { it.salario }
-        .forEach {println(it)}
+        .forEach { println(it) }
 
     funcionarios
         .groupBy { it.tipoContratacao }
-        .forEach {println(it)}
-}
-
-data class Funcionario (
-    val nome: String,
-    val salario: Double,
-    val tipoContratacao: String
-) {
-    override fun toString(): String = """
-        Nome:    $nome
-        Salario: $salario
-        -------------------------
-    """.trimIndent()
+        .forEach { println(it) }
 }
